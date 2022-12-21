@@ -25,6 +25,8 @@ app.get('/', (req, res) => {
 // adding the another folder file in this way . Routes, here app is connected to the route file so it's working for the api urls
 
 app.use('/api/users', require('./routes/userRoutes'))
+app.use('/api/tickets', require('./routes/ticketRoutes'))
+
 
 app.use(errorHandler)
 

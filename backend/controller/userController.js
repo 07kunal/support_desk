@@ -1,7 +1,7 @@
 const asyncHandler = require('express-async-handler')
 // for password encrypt import bcrypt
 const bcrypt = require('bcryptjs')
-const User = require('../modals/userModels')
+const User = require('../models/userModel')
 // for token generate 
 const jwt = require('jsonwebtoken')
 
